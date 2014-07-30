@@ -9,7 +9,7 @@ title: About
 
 ## Contact me
 
-* You can network with me professionally on [Linkedin]http://www.linkedin.com/in/lsadagopan/.
+* You can network with me professionally on [Linkedin](http://www.linkedin.com/in/lsadagopan/)
 * You can find my code on [GitHub](https://github.com/laxmynarain/)
 * For all other purposes, contact me on [Twitter](https://twitter.com/lsadagopan)
 
