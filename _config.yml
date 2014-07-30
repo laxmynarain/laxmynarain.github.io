@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Lakshminarayanan Sadagopan
+title:            The constant learner
 tagline:          The website of Lakshminarayanan Sadagopan
-url:              http://getpoole.com
+url:              http://laxmynarain.github.io/
 paginate:         1
 baseurl:          http://laxmynarain.github.io/
 author:
