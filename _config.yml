@@ -6,17 +6,17 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
+title:            Lakshminarayanan Sadagopan
+tagline:          The website of Lakshminarayanan Sadagopan
 url:              http://getpoole.com
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Lakshminarayanan Sadagopan
+  url:            https://twitter.com/lsadagopan
+  email:          laxmynarain@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/laxmynarain.github.io
