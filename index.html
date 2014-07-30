@@ -1,64 +1,37 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: Home
+---
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="The Constant learner : The website of Lakshminarayanan Sadagopan">
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    <title>The Constant learner</title>
-  </head>
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
 
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/laxmynarain">View on GitHub</a>
-
-          <h1 id="project_title">The Constant learner</h1>
-          <h2 id="project_tagline">The website of Lakshminarayanan Sadagopan</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="learning" class="anchor" href="#learning"><span class="octicon octicon-link"></span></a>Learning</h1>
-
-<p><em>Learning is the lasting change in behavior that results from experience</em></p>
-
-<hr><p>On this site I am going to write about my adventures with learning while discussing the best methods and practices that facilitate learning various kinds of study subjects. </p>
-
-<p><img src="http://www.trainingzone.co.uk/sites/default/files/styles/540x350/public/istockphoto_thinkstock_story_birds.jpg" alt="Learning"></p>
-
-<h2>
-<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
-
-<p><strong>Lakshminarayanan Sadagopan</strong></p>
-
-<ul>
-<li><a href="https://github.com/laxmynarain">https://github.com/laxmynarain</a></li>
-<li><a href="https://twitter.com/lsadagopan">https://twitter.com/lsadagopan</a></li>
-</ul><h2>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
-
-<p>Open sourced under the <a href="LICENSE.md">MIT license</a>.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
