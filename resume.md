@@ -5,4 +5,4 @@ title: Resume
 
 # Lakshminarayanan Sadagopan
 
-[My Resume]({{ site.url }}/assets/lsadagopan.pdf)
+[My Resume]({{ site.url }}assets/lsadagopan.pdf)
