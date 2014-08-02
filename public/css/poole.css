@@ -318,6 +318,14 @@ tbody tr:nth-child(odd) th {
   font-weight: 400;
   color: #d0d0d0;
   letter-spacing: 0;
+/*  text-decoration: underline;*/
+
+}
+.masthead-title smalllink {
+  font-size: 75%;
+  font-weight: 400;
+  color: #d0d0d0;
+  letter-spacing: 0;
   text-decoration: underline;
 
 }
