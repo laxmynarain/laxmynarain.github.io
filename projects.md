@@ -2,8 +2,8 @@
 layout: page
 title:  Projects
 ---
+# A list of projects i have been working on:
 
-![Resume]({{ site.url }}assets/lsadagopan.png)
-# [burps](https://github.com/laxmynarain/burps): Mobile food locator in san francisco
-# [chatbird](https://github.com/laxmynarain/chatbird): Real-time chat application using websockets
-# [Personal website](https://github.com/laxmynarain/laxmynarain.github.io): A jekyll based personal webpage hosted on github
+[burps](http://burps.herokuapp.com/): Mobile food locator in san francisco - [code](https://github.com/laxmynarain/burps)
+[chatbird](http://chatbird.herokuapp.com/): Real-time chat application using websockets - [code](https://github.com/laxmynarain/chatbird)
+[Personal website](http://laxmynarain.github.io/): A jekyll based personal webpage hosted on github - [code](https://github.com/laxmynarain/laxmynarain.github.io)
