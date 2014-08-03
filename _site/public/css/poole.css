@@ -316,8 +316,17 @@ tbody tr:nth-child(odd) th {
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #c0c0c0;
+  color: #d0d0d0;
   letter-spacing: 0;
+/*  text-decoration: underline;*/
+
+}
+.masthead-title smalllink {
+  font-size: 75%;
+  font-weight: 400;
+  color: #b0c4de;
+  letter-spacing: 0;
+  text-decoration: underline;
 }
 
 
