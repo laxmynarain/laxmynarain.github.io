@@ -2,7 +2,7 @@
 layout: page
 title:  Projects
 ---
-# A list of projects i have been working on:
+A list of projects I have been working on:
 
 [burps](http://burps.herokuapp.com/): Mobile food locator in san francisco - [*code*](https://github.com/laxmynarain/burps)
 
